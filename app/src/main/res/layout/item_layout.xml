@@ -24,12 +24,36 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        android:padding="2dp"
         android:text="são paulo"
         android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
         tools:fontFamily="sans-serif"
-        tools:layout_editor_absoluteY="68dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
         tools:textColor="?attr/colorBackgroundFloating" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="3dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:layout_editor_absoluteX="8dp"
+        tools:text="2 Dias"
+        android:textColor="@color/colorPrimary"
+        />
 
 </android.support.constraint.ConstraintLayout>
