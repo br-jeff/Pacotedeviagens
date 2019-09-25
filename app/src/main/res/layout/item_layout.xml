@@ -21,4 +21,15 @@
         android:scaleType="centerCrop"
         />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="são paulo"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:fontFamily="sans-serif"
+        tools:layout_editor_absoluteY="68dp"
+        tools:textColor="?attr/colorBackgroundFloating" />
+
 </android.support.constraint.ConstraintLayout>
